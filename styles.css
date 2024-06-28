@@ -76,9 +76,9 @@ background-color: #000000;
     padding: 5px;
 }
 .calender svg, .Projects svg {
-    width: 38px; /* Adjust icon size as needed */
+    width: 38px; 
     height: 38px;
-    margin-right: 10px; /* Adjust spacing between icon and text */
+    margin-right: 10px; 
 }
 p{
     flex-direction: column;
@@ -95,3 +95,50 @@ p{
     flex-direction: column;
     margin: 5px 0;
     font-size: 14px;}
+
+.board{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 500px;
+    color: #262626;
+   
+}
+.content {
+    display: flex;
+    background-color: #262626;
+    flex-grow: 1;
+}
+.notes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #767575;
+    
+    height: 100px;
+    width: 100px ;
+    border-radius: 10px;
+    margin-top: 20px;
+    word-wrap: wrap ;
+    flex-grow: 1;
+}
+
+.notes p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.inprogress{
+    display: flex;
+    flex-direction: column;
+    flex-direction: space-between;
+    align-items: center;
+    height: 20px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: #7D58B9;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+    
+
