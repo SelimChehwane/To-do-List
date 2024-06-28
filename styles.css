@@ -20,18 +20,24 @@ body {
     justify-content: space-between; 
     align-items: center; 
     width: 80%; 
-    height: 200;
-    padding: 20px; 
+    height: 50px;
+    padding: 10px;
+    
+    
 }
 
 h1 {
     color: white;
 }
-
+ h2{
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0;
+ }
 
 .profile {
-    width: 66px;
-    height: 66px;
+    width: 60px;
+    height: 60px;
     background-color: rgba(255, 255, 255, 0.5); 
     border-radius: 50%;
     display: flex;
@@ -42,4 +48,50 @@ h1 {
     font-weight: bold;
     margin-left: 20px;
 box-shadow: #ffff 0 0 0 3px;}
-    
+
+.slidebar{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 35%;
+height: 500px;
+background-color: #000000;
+
+}
+
+.calender{
+    display: flex;
+    flex-direction: space-between;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    padding: 5px;
+}
+.Projects{
+    display: flex;
+    flex-direction: space-between;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    padding: 5px;
+}
+.calender svg, .Projects svg {
+    width: 38px; /* Adjust icon size as needed */
+    height: 38px;
+    margin-right: 10px; /* Adjust spacing between icon and text */
+}
+p{
+    flex-direction: column;
+    color: #ffffff;
+}
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.dropdown p {
+    flex-direction: column;
+    margin: 5px 0;
+    font-size: 14px;}
